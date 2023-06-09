@@ -24,8 +24,8 @@ class Solution {
                 if(arr[i][0]==0 || arr[0][j] == 0){
                     arr[i][j] = 0;
                 }
-                if(col0 == 0) arr[i][0] = 0;
             }
+                if(col0 == 0) arr[i][0] = 0;
         }
     }
     public static void main(String[] args) {
