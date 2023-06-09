@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class SolutionBrute {
     // Brute force          time- O(n * n * r)
     public static List<List<Integer>> generate(int numRows) {
         List<List<Integer>> ans = new ArrayList<>() ;
